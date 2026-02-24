@@ -202,18 +202,6 @@ export default function Home() {
         }} />
 
         <div className="relative z-10 w-full max-w-[1200px] mx-auto px-6 sm:px-10 pt-32 pb-24">
-          <motion.div
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mb-8"
-          >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/15 text-white/80 text-[11px] font-semibold tracking-[0.12em] uppercase">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-              Formation certifiante · Entreprises
-            </span>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
