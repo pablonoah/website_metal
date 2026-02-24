@@ -155,7 +155,7 @@ export default function Home() {
               onClick={() =>
                 document.getElementById("programme")?.scrollIntoView({ behavior: "smooth" })
               }
-              className="text-[13px] text-slate-500 hover:text-[#0f1729] transition-colors hidden sm:block"
+              className="text-[16px] text-slate-500 hover:text-[#0f1729] transition-colors hidden sm:block"
             >
               Programme
             </button>
@@ -163,7 +163,7 @@ export default function Home() {
               onClick={() =>
                 document.getElementById("modalites")?.scrollIntoView({ behavior: "smooth" })
               }
-              className="text-[13px] text-slate-500 hover:text-[#0f1729] transition-colors hidden sm:block"
+              className="text-[16px] text-slate-500 hover:text-[#0f1729] transition-colors hidden sm:block"
             >
               Modalités
             </button>
@@ -274,7 +274,6 @@ export default function Home() {
           >
             {[
               { value: "500+", label: "Professionnels formés" },
-              { value: "3 jours", label: "Programme complet" },
               { value: "24h", label: "Réponse sous" },
             ].map((s) => (
               <div key={s.label}>
