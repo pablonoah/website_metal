@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(start:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add button card dialog input label select textarea -y)",
+      "Bash(npm install:*)",
+      "Bash(npx next build:*)",
+      "Bash(npx next dev:*)",
+      "WebFetch(domain:www.desktopmetal.com)"
+    ]
+  }
+}
