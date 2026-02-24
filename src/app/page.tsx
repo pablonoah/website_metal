@@ -135,11 +135,14 @@ export default function Home() {
           >
             <Image
               src="/logo.png"
-              alt="Logo"
-              width={120}
-              height={40}
-              className="h-8 w-auto object-contain"
+              alt="Logo Nouveau Metal"
+              width={160}
+              height={52}
+              className="h-11 w-auto object-contain"
             />
+            <span className="font-display font-bold text-[#0f1729] text-[17px] tracking-tight">
+              Nouveau Metal
+            </span>
           </motion.div>
 
           <motion.div
@@ -598,13 +601,13 @@ export default function Home() {
           <div className="flex items-center gap-2.5">
             <Image
               src="/logo.png"
-              alt="Logo"
-              width={80}
-              height={28}
-              className="h-5 w-auto object-contain"
+              alt="Logo Nouveau Metal"
+              width={100}
+              height={34}
+              className="h-7 w-auto object-contain"
             />
             <p className="text-slate-400 text-sm">
-              &copy; 2026 — Formation Impression 3D Métal
+              &copy; 2026 — Nouveau Metal
             </p>
           </div>
           <p className="text-slate-300 text-xs tracking-wider">
