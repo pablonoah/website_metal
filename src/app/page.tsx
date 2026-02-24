@@ -126,22 +126,22 @@ export default function Home() {
           NAVIGATION
       ═══════════════════════════════════════ */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-slate-200/60">
-        <div className="max-w-[1200px] mx-auto px-6 sm:px-10 h-16 flex items-center justify-between">
+        <div className="max-w-[1200px] mx-auto px-6 sm:px-10 h-17 flex items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -12 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center gap-2.5"
+            className="flex items-center"
           >
             <Image
               src="/logo.png"
               alt="Logo Nouveau Metal"
               width={160}
               height={52}
-              className="h-11 w-auto object-contain"
+              className="h-38 w-auto object-contain -ml-13 mt-6 "
             />
-            <span className="font-display font-bold text-[#0f1729] text-[17px] tracking-tight">
-              Nouveau Metal
+            <span className="font-display font-bold text-[#0f1729] text-[22px] tracking-tight -ml-10">
+              Nouveau  Metal
             </span>
           </motion.div>
 
@@ -409,7 +409,6 @@ export default function Home() {
                         </p>
                         <p className="text-sm text-slate-400">{p.desc}</p>
                       </div>
-                      <ArrowRight className="h-4 w-4 text-slate-300 group-hover:text-[#0f1729] group-hover:translate-x-1 transition-all shrink-0" />
                     </div>
                   </FadeIn>
                 ))}
@@ -604,9 +603,9 @@ export default function Home() {
               alt="Logo Nouveau Metal"
               width={100}
               height={34}
-              className="h-7 w-auto object-contain"
+              className="h-38 w-auto object-contain"
             />
-            <p className="text-slate-400 text-sm">
+            <p className="text-slate-400 text-base -ml-9 -mt-4">
               &copy; 2026 — Nouveau Metal
             </p>
           </div>
