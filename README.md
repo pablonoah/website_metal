@@ -22,7 +22,7 @@ A modern landing page for an industrial metal 3D printing (SLM/DMLS) training pr
 ## Getting Started
 
 ```bash
-git clone https://github.com/pablonoah/website_metal.git
+git clone https://github.com/noahlips/website_metal.git
 cd website_metal
 npm install
 npm run dev
